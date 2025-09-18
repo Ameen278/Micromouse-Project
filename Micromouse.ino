@@ -8,7 +8,7 @@
 
 #include <Arduino.h>  // لـsetup وloop في Arduino/ESP32
 #include "sensors.h"  // حساسات المسافة
-#include "motor.h"    // التحكم في المحركات
+#include "motors.h"    // التحكم في المحركات
 #include "mapping.h"  // تحديث الخريطة (updateWall)
 #include "pathfinding.h"  // Flood Fill وgetNextDirection
 
